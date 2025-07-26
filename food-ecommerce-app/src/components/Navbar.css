@@ -1,27 +1,28 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.2);
-    padding: 1rem 2rem;
-    border-radius: 20px;
-    margin: 10px;
-    color: #fff;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 500;
 }
 
 .navbar li {
-    cursor: pointer;
-    transition: 0.3;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .navbar li:hover {
-    color: #ffd700;
+  color: #ffcc00;
 }

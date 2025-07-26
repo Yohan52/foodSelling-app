@@ -1,13 +1,13 @@
 .home {
-    padding: 2rem;
-    text-align: center;
-    color: #fff;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
 }
 
-.product-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 2rem;
+.products-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
