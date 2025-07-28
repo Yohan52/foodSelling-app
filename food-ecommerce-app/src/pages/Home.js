@@ -1,24 +1,20 @@
-import React from "react";
-import ProductCard from "../components/ProductCard";
+import React, { useState } from "react";
+import { motoin } from "framer-motion";
+import { Fabars, FaHome, FaHamburger, FaShoppingCart, FaPhone } from "react-icon/fa";
 import "./Home.css";
 
 const sampleProducts = [
-  { name: "burger", price: 500, image: "/assets/burger.jpg" },
-  { name: "pizza", price: 1200, image: "/assets/pizza.jpg" },
-  { name: "sushi", price: 1500, image: "/assets/sushi.jpg" },
+    { name: "Burger", description: "We have more variations like this Burger.", image: "./assets/burger.jpg" },
+    { name: "pizza", description: "We have more variations like this Burger.", image: "./assets/pizza.jpg" },
+    { name: "Sushi", description: "We have more variations like this Sushi. ", image: "./assets/sushi.jpg" },
 ];
 
-function Home() {
-  return (
-    <div className="home">
-      <h1>Delicious Foods</h1>
-      <div className="products-grid">
-        {sampleProducts.map((item, idx) => (
-          <ProductCard key={idx} {...item} />
-        ))}
-      </div>
-    </div>
-  );
-}
+function Home () {
+    const [ showMenu, setShowMenu] = useState(false);
 
-export default Home;
+    const toggleMenu = () => setShowMenu (prev => !prev);
+
+    return (
+        
+    )
+}
